@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="549.0" prefWidth="880.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.RestaurantController">
+   <children>
+      <ImageView fitHeight="137.0" fitWidth="134.0" layoutX="50.0" layoutY="242.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/mc.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btn2" layoutX="57.0" layoutY="419.0" mnemonicParsing="false" onAction="#showInfo" prefHeight="23.0" prefWidth="120.0" style="-fx-background-color: red;" text="Mcdo" textFill="WHITE" />
+      <ImageView fitHeight="118.0" fitWidth="120.0" layoutX="213.0" layoutY="250.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/jabi.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btn5" layoutX="702.0" layoutY="420.0" mnemonicParsing="false" onAction="#showInfo" prefHeight="25.0" prefWidth="128.0" style="-fx-background-color: red;" text="Shakey's" textFill="#b9adad" />
+      <ImageView fitHeight="118.0" fitWidth="120.0" layoutX="377.0" layoutY="266.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/maxss.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="118.0" fitWidth="120.0" layoutX="702.0" layoutY="296.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/shakeys.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="75.0" fitWidth="128.0" layoutX="544.0" layoutY="289.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/inasal.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btn3" layoutX="212.0" layoutY="420.0" mnemonicParsing="false" onAction="#showInfo" prefHeight="23.0" prefWidth="120.0" style="-fx-background-color: yellow;" text="Jolliebee" />
+      <Button fx:id="btn4" layoutX="376.0" layoutY="419.0" mnemonicParsing="false" onAction="#showInfo" prefHeight="23.0" prefWidth="120.0" style="-fx-background-color: red;" text="Max's" />
+      <Button fx:id="btn1" layoutX="536.0" layoutY="419.0" mnemonicParsing="false" onAction="#showInfo" prefHeight="23.0" prefWidth="120.0" style="-fx-background-color: yellow;" text="Mang inasal" />
+      <Text fill="#cd6060" layoutX="163.0" layoutY="157.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PICK A RESTAURANT" wrappingWidth="546.13671875">
+         <font>
+            <Font name="Bookman Old Style Bold" size="48.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
